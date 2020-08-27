@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Assistant", sans-serif;
+  letter-spacing: 1px;
+  color: white;
+}
+.result {
+  width: 80%;
+  background-color: #cc0000;
+}
+
+.result-col {
+  width: 25%;
+  border: 1px solid white;
+}
+#head-section {
+  background-color: #800000;
+  height: 10vh;
+  letter-spacing: 2px;
+}
+.jumbotron {
+  width: 70%;
+  background-color: #cc0000;
+  color: white;
+  letter-spacing: 1px;
+}
+input {
+  font-weight: bold;
+  letter-spacing: 1px;
+  /* border: none; */
+  /* border-radius: 10px; */
+}
+#help {
+  color: white;
+}
+.jumbotron {
+  margin: auto;
+}
+form {
+  background-color: #cc0000;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.submit-btn {
+  background-color: #800000;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.submit-btn:hover {
+  background-color: #1a0000;
+  color: white;
+}
+.btn-row {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  form {
+    width: 100%;
+  }
+  .jumbotron {
+    width: 100%;
+  }
+  .result {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 600px) {
+  span {
+    font-size: 14px;
+  }
+}
